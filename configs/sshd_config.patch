@@ -1,0 +1,8 @@
+15c15
+< #Port 22
+---
+> Port 4242
+34c34
+< #PermitRootLogin prohibit-password
+---
+> PermitRootLogin no

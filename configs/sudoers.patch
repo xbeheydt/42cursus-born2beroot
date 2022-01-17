@@ -1,0 +1,11 @@
+8a9
+> Defaults      requiretty
+11c12,18
+< Defaults      secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+---
+> Defaults      log_output
+> Defaults      log_input
+> Defaults      iolog_dir=/var/log/sudo
+> Defaults      logfile=/var/log/sudo/sudo.log
+> Defaults      badpass_message="Ohhhh no you don't remember your password ??? NOOB !!!"
+> Defaults      passwd_tries=3> Defaults      secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
